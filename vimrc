@@ -42,10 +42,10 @@ Plugin 'maksimr/vim-jsbeautify'
 
 Plugin 'Yggdroot/indentLine'
 
-Plugin 'derekwyatt/vim-scala'
-Plugin 'fatih/vim-go'
-Plugin 'scrooloose/syntastic' "for EsLint 
-Plugin 'millermedeiros/vim-esformatter' "for EsFormatter
+" Plugin 'derekwyatt/vim-scala'
+" Plugin 'fatih/vim-go'
+" Plugin 'scrooloose/syntastic' "for EsLint 
+" Plugin 'millermedeiros/vim-esformatter' "for EsFormatter
 
 call vundle#end()            " required
 " don't let vundle mess with indentation / folding for markdown files
@@ -62,7 +62,7 @@ set ruler                       " show ruler (vim-airline will take care of this
 set number                      " show line numbers
 set title                       " show file name in title bar
 set hlsearch                    " highlight search researchs
-set showbreak=↪                 " display this character for line break
+" set showbreak=↪                 " display this character for line break
 set linespace=3                 " spaces between lines
 set cursorline                  " highlight current line where the cursor is at
 set scrolloff=5                 " number of lines to keep from the edge when scrolling
@@ -70,7 +70,7 @@ if has('statusline')
   set laststatus=2              " always show status line
 endif
 " set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
-set lcs=tab:⤑\ ,trail:·,eol:¬
+" set lcs=tab:⤑\ ,trail:·,eol:¬
 set nolist
 " ---- general settings ----
 "set mouse=a                     " enable mouse support in console
